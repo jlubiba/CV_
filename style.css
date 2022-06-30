@@ -1,0 +1,45 @@
+/* Tags */
+
+body{
+    background-color: #eaf6f6;
+    text-align: center;
+}
+
+fieldset{
+    display: inline-block;
+    width: 50%;
+    /* text-align: left; */
+}
+
+h1, h3{
+    color: #66bfbf;
+}
+
+hr{
+    border-style: none;
+    border-top: dotted 5px;
+    margin: auto;
+    width: 5%;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+}
+
+/* classes */
+
+.cv_tables {
+    display: inline-block;
+}
+
+.skill{
+    text-align: left;
+}
+
+/* Ids */
+
+#profile_pic{
+    border-radius: 80%;
+    width: 150px;
+}

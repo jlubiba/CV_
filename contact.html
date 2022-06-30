@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Jean-marc Lubiba">
+    <meta name="description" content="Jean-marc's contact page.">
+    <meta name="keywords" content="cv, html, css, javascript, js, coding, portfolio, contact">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Contact Us</h1>
+    <form action="index.html" target="_self" method="">
+        <div>
+            <fieldset>
+                <legend>Contact Us</legend>
+            <p>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="First Name" placeholder="First Name" required="required"><br>
+            </p>
+            <p>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="Last Name" placeholder="Last Name" required="required"><br>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email" placeholder="JohnDoe@email.com" required="required"><br>
+            </p>
+            <p>
+                <label for="comment">Write your message here:</label><br>
+                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Insert your message here."></textarea>
+            </p>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Your Review:</legend>
+            <p>
+                <label for="hear_about">How did you hear about me?</label>
+                <select id="hear_about" name="referrer">
+                    <option value="google">Google</option>
+                    <option value="friend">Friend</option>
+                    <option value="advert">Advert</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+            <p>
+                <span>Would you visit again?</span><br>
+                <input type="radio" id="yes" name="">
+                <label for="yes">Yes</label>
+                <input type="radio" id="fname" name="">
+                <label for="no">No</label>
+                <input type="radio" id="maybe" name="">
+                <label for="maybe">Maybe</label>
+            </p>
+    
+            <p>
+                <span>Comments:</span><br>
+                <textarea name="comment" id="comment" cols="40" rows="8" placeholder="Insert your comment here."></textarea>
+            </p>
+    
+            <p>
+                <input type="checkbox" id="sign_up" name="sign_up">
+                <label for="sign_up">Sign me up for email updates</label><br>
+            </p>
+            <input type="submit" name="submit" value="Submit">
+            </fieldset>
+        </div>
+    </form>
+</body>
